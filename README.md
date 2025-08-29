@@ -1,2 +1,2 @@
 # PolyBookstore
-This is the shared wordspace of the PolyNetCafe project
+This is the shared wordspace of the PolyBookstore project
