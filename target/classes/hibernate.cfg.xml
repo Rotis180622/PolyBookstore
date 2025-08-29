@@ -1,0 +1,22 @@
+<hibernate-configuration>
+	<session-factory>
+		<!--JDBC Driver -->
+		<property name="hibernate.connection.driver_class">
+			com.microsoft.sqlserver.jdbc.SQLServerDriver
+		</property>
+
+		<!-- Tài khoản DB -->
+		<property name="hibernate.connection.username">sa</property>
+		<property name="hibernate.connection.password">123</property>
+
+		<!-- Dialect cho SQL Server -->
+		<property name = "hibernate.dialect">
+		org.hibernate.dialect.SQLServerDialect
+		</property>
+
+		<!-- Other settings -->
+		<property name="hibernate.show_sql">true</property>
+		<property name="hibernate.format_sql">true</property>		
+
+	</session-factory>
+</hibernate-configuration>
